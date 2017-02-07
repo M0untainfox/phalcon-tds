@@ -1,7 +1,19 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.js"></script>
 <div class="page-header">
     <h1>Congratulations!</h1>
 </div>
+<a href="http://www.google.com">
+<button  class="ui primary button">
 
-<p>You're now flying with Phalcon. Great things are about to happen!</p>
 
-<p>This page is located at <code>views/index/index.volt</code></p>
+  Save
+</button>
+</a>
+
+<ul>
+     <?php foreach ($users as $user) { ?>
+      <li><?= $user->getLogin() ?></li>
+      <?php } ?>    
+</ul>
