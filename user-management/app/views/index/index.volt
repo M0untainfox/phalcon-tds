@@ -4,16 +4,12 @@
 <div class="page-header">
     <h1>Congratulations!</h1>
 </div>
-<a href="http://www.google.com">
+<a href="users">
 <button  class="ui primary button">
-
-
-  Save
+    Users
 </button>
 </a>
 
-<ul>
-     {% for user in users %}
-      <li>{{ user.getLogin() }}</li>
-      {% endfor %}    
-</ul>
+
+
+

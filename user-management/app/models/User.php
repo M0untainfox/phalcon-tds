@@ -243,6 +243,29 @@ class User extends \Phalcon\Mvc\Model
      *
      * @return integer
      */
+    .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public function getIdrole()
     {
         return $this->idrole;
