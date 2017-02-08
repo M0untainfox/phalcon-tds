@@ -243,29 +243,6 @@ class User extends \Phalcon\Mvc\Model
      *
      * @return integer
      */
-    .
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     public function getIdrole()
     {
         return $this->idrole;
@@ -333,5 +310,12 @@ class User extends \Phalcon\Mvc\Model
     {
         return parent::findFirst($parameters);
     }
+
+
+    public function actualiser()
+    {
+        echo '<script type="text/javascript">alert("hello!");</script>';
+    }
+
 
 }

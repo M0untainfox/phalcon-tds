@@ -12,11 +12,12 @@
     <tr>
         <td>{{ user.getFirstname() }}</td><td>{{ user.getLastname() }}</td><td>{{ user.getLogin() }}</td><td> {{ user.getEmail()}}</td>
         <td> {{ user.getRole().getName()}}</td><td><div class="ui icon buttons">
+
                 <button class="ui button">
                     <i class="edit icon"></i>
                 </button>
-                <button class="ui red button">
-                <i class="remove icon"></i>
+                <button onclick="" class="ui  button">
+                <i class=" red remove icon"></i>
                 </button>
             </div>
         </td>
