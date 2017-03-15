@@ -1,0 +1,2 @@
+chmod -R a+w app
+chmod -R a+w cache
